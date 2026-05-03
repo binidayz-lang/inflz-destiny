@@ -372,7 +372,7 @@
     const name=document.getElementById('resName').textContent;
     const ms=document.getElementById('mScore').textContent;
     const is=document.getElementById('iScore').textContent;
-    const txt=`✦ 인플즈 사주 분석 결과 ✦\n${name}\n메리님 궁합 ${ms} | 인플즈 적합도 ${is}\n\n나도 해봐! 👉 marryz.imweb.me`;
+    const txt=`✦ 인플즈 사주 분석 결과 ✦\n${name}\n메리님 궁합 ${ms} | 인플즈 적합도 ${is}\n\n나도 해봐! 👉 m.site.naver.com/273Ha`;
     if(navigator.share)navigator.share({title:'인플즈 사주 분석',text:txt});
     else if(navigator.clipboard){navigator.clipboard.writeText(txt);alert('복사됐어요! 스토리에 올려보세요 ✨');}
   }
